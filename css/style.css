@@ -1,0 +1,38 @@
+#main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+
+.image-container {
+  background-color: black;
+  background-size: contain;
+  background-image: url('img/loading.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.navigation {
+  display: block;
+  position: absolute;
+  bottom: 0;
+
+  width: 50px;
+  height: 50px;
+
+  line-height: 50px;
+  text-align: center;
+
+  background-color: rgba(255,255,255,0.5);
+}
